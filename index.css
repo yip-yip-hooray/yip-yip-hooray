@@ -1,0 +1,30 @@
+.introduction {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rules {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    margin-top: 24px;
+}
+
+.puzzles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.puzzle-link {
+    display: inline-block;
+    margin: 32px;
+    font-size: 14pt;
+}
