@@ -38,6 +38,32 @@ img {
     margin: 36px 0;
 }
 
+.hint-link {
+    margin-bottom: 12px;
+    font-size: 14pt;
+}
+
 .answer-checker {
     font-size: 14pt;
+}
+
+.hint {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    font-size: 14pt;
+    margin-bottom: 18px;
+}
+
+.hint-number {
+    margin-right: 8px;
+}
+
+.hint-text {
+    background-color: #333333;
+}
+
+.hint-text:hover {
+    background-color: #ffffff;
 }
